@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="866.0" prefWidth="1540.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.unogui.LoseScreen">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1540.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LOST.jpg" />
+         </image>
+      </ImageView>
+      <TitledPane animated="false" expanded="false" layoutX="1171.0" layoutY="26.0" prefHeight="199.0" prefWidth="354.0" text="Players">
+         <content>
+            <VBox fx:id="PlayerVbox" prefHeight="172.0" prefWidth="202.0" />
+         </content>
+      </TitledPane>
+   </children>
+</AnchorPane>
